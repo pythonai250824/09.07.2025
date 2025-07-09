@@ -120,10 +120,11 @@ logger.info("========== System shut-down")
 
 '''
 1. create logger for file + console
-2. set both to level debug
-3. input number from user in a loop, until int(number) succeed
-   log.debug the user input (before doing int(number))
-   for failure log to file the error
-4. after success log   
-4. log.info -> system start, system shut-down,    
+2. set console to info, file to debug
+3. log.info -> system start
+4. input number from user in a loop, until int(input) succeed
+   log.debug the user input (before doing int(input))
+   for failure log to file the error (try-except)
+5. after success log the number   
+6. log.info -> system shut-down    
 '''
