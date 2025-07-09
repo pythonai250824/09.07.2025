@@ -118,6 +118,13 @@ conn.close()  # close for safety
 
 logger.info("========== System shut-down")
 
+# try:
+#     user_input = input('enter number:')
+#     logger.debug(user_input)
+#     num = int(user_input)
+# except Exception as e:
+
+
 '''
 1. create logger for file + console
 2. set console to info, file to debug
